@@ -8,7 +8,6 @@ body {
     min-height: 100vh;
     min-width: 100vh;
     font-family: "Roboto", sans-serif;
-    /* background-color: black; */
     color: white;
     background: linear-gradient(
             rgba(40, 49, 59, 0.986),
