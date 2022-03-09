@@ -30,25 +30,14 @@ body {
     margin-bottom: 70px;
     text-align: center;
     text-decoration: underline;
-    color: red;
+    color: #FF160C;
     transition: 0.7s ease-in-out all;
 }
 
 .main-heading:hover {
-    animation-name: example;
-    animation-duration: 0.7s;
-}
-
-@keyframes example {
-    0% {
-        text-decoration: red underline;
-    }
-    33.3% {
-        text-decoration: white underline;
-    }
-    100% {
-        text-decoration: red underline;
-    }
+    color: white;
+    text-shadow: 0px -2px 0px rgba(0, 0, 0, 1), 0 0 5px rgba(255, 255, 255, 0.8),
+        0 -4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .sub-heading {
@@ -57,7 +46,7 @@ body {
     transition: 0.7s ease-in-out all;
 }
 .sub-heading:hover {
-    text-decoration: red underline 3px;
+    text-decoration: #FF160C underline 3px;
 }
 
 .content {
@@ -84,7 +73,7 @@ body {
 
 .dots {
     display: inline-block;
-    color: red;
+    color: #FF160C;
 }
 
 .next,
@@ -99,8 +88,8 @@ body {
 
 .currentPage {
     padding: 8px;
-    color: red;
-    border: 2px solid red;
+    color: #FF160C;
+    border: 2px solid #FF160C;
     background-color: rgba(255, 0, 0, 0.185);
     border-radius: 50%;
 }
